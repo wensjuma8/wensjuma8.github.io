@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="shortcut icon" type="image/ico" href="img/favicon.ico"/>
+        <link rel="stylesheet" href="dist/bootstrap.min.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+        <script src="js/indexedDb.js"></script>
+        <script src="js/main.js"></script>
+    <title>Home | Converter</title>
+</head>
+<body>
+    <div class="container">
+           
+        
+                    <div class="row">
+                                 
+                        <div class="form-group col-sm-4">
+                         
+                        </div>
+                        <div class="col-sm-4">
+                                <div class="jumbotron jumbotron-fluid">
+                                        <div class="container text-center">
+                                            <h1>ALC 3.0 Currency Converter</h1>
+                                        </div>
+                                    </div>
+                                <div class="text-center" id="loading">
+                                        <div class="lds-ellipsis"><div></div><div></div><div></div><div></div></div> 
+                                    </div>
+                                <form id="form" class="form-control">
+                            
+                                    <select name="" id="currency-1" class="form-control">
+                                        </select><br>
+                                    <select name="" id="currency-2" class="form-control">
+                                        </select><br>
+                                <input type="number" placeholder="Amount" class="form-control" min="0" id="amount"/>  
+                            <br>
+                            <button class="btn btn-success lg" id="convert" style="width:100%;">Convert</button>
+                        </form>
+                        <h4 id="answer"></h4>
+                        </div>
+                       
+                   
+                    <div class="col-sm-4">
+                           
+                                    
+                            </div>
+                        
+                    </div>
+                    
+                
+            </div>
+        </div>
+    </div>
+</body>
+</html>
